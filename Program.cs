@@ -38,7 +38,8 @@ namespace Algorithms
             }
             for (int i = 9-2; i >= newN ; i--)
             {
-                Console.WriteLine(numberTrain / (int)Math.Pow(10, i));
+                firstLine = numberTrain / (int)Math.Pow(10, i);
+                Console.WriteLine(firstLine);
             }
         }
     }
